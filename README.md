@@ -34,40 +34,6 @@ CosmicTarot/
 
 ---
 
-## 🚀 Getting Started
-
-### Step 1: Open in Xcode
-1. Unzip the folder
-2. Open `CosmicTarot.xcodeproj` in Xcode 15+
-3. Select your Development Team under: Target → Signing & Capabilities
-
-### Step 2: Add Your Anthropic API Key
-Open `Models/AnthropicService.swift` and replace:
-```swift
-private let apiKey = "YOUR_API_KEY_HERE"
-```
-with your key from https://console.anthropic.com
-
-> ⚠️ For a real App Store app, move the API key to a secure backend server.
-
-### Step 3: Add Your Oracle Image (optional)
-1. Drag your oracle illustration into `Assets.xcassets`
-2. Name it `oracle`
-3. In `HomeView.swift`, uncomment:
-```swift
-Image("oracle")
-    .resizable()
-    .scaledToFill()
-    .clipShape(RoundedRectangle(cornerRadius: 14))
-```
-And comment out the placeholder emoji section.
-
-### Step 4: Run
-- Select iPhone simulator or your device
-- Press ▶ (Cmd+R)
-
----
-
 ## ✨ Features
 
 | Screen | Description |
@@ -96,15 +62,6 @@ And comment out the placeholder emoji section.
 - Xcode 15.0+
 - Swift 5.9+
 - Anthropic API key (for AI readings)
-
----
-
-## 🛠️ Customisation Tips
-
-- **Add real tarot card images**: Add 30 images to Assets.xcassets named after each card (e.g. `the_fool`, `the_magician`) and update `TarotCard` model with an `imageName` property
-- **Add sound effects**: Use `AVFoundation` to play ambient music. Toggle is wired to `vm.musicEnabled`
-- **Push notifications**: The toggle is wired to `vm.notificationsEnabled` — add `UNUserNotificationCenter` calls
-- **Custom App Icon**: Add a 1024×1024 PNG to AppIcon.appiconset in Assets.xcassets
 
 ---
 

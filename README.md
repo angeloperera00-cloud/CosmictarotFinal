@@ -1,4 +1,4 @@
-# 🔮 Cosmic Tarot — iOS App
+# 🔮 Cosmic Tarot iOS App
 
 A beautiful mystical tarot reading app built with SwiftUI, featuring AI-powered readings via the Anthropic API.
 

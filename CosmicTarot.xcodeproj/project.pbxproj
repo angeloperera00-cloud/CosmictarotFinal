@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DA24E52F7E5956008217B6 /* TarotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24E42F7E5956008217B6 /* TarotModel.swift */; };
+		89DA24E72F7E5961008217B6 /* AnthropicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24E62F7E5961008217B6 /* AnthropicService.swift */; };
+		89DA24F22F7E59AC008217B6 /* PickCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24ED2F7E59AC008217B6 /* PickCardsView.swift */; };
+		89DA24F32F7E59AC008217B6 /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24EE2F7E59AC008217B6 /* ReadingView.swift */; };
+		89DA24F42F7E59AC008217B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24EC2F7E59AC008217B6 /* HomeView.swift */; };
+		89DA24F52F7E59AC008217B6 /* CosmicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24E92F7E59AC008217B6 /* CosmicButton.swift */; };
+		89DA24F62F7E59AC008217B6 /* StarfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24F12F7E59AC008217B6 /* StarfieldView.swift */; };
+		89DA24F72F7E59AC008217B6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24EB2F7E59AC008217B6 /* HistoryView.swift */; };
+		89DA24F82F7E59AC008217B6 /* CardFanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24E82F7E59AC008217B6 /* CardFanView.swift */; };
+		89DA24F92F7E59AC008217B6 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24EA2F7E59AC008217B6 /* DownloadsView.swift */; };
+		89DA24FA2F7E59AC008217B6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24EF2F7E59AC008217B6 /* SettingsView.swift */; };
+		89DA24FB2F7E59AC008217B6 /* ShakeRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24F02F7E59AC008217B6 /* ShakeRevealView.swift */; };
+		89DA24FD2F7E59B5008217B6 /* TarotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24FC2F7E59B5008217B6 /* TarotViewModel.swift */; };
+		89DA24FF2F7F1B27008217B6 /* CosmicBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA24FE2F7F1B27008217B6 /* CosmicBackgroundView.swift */; };
+		89DA25012F7FD959008217B6 /* ReadingviewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA25002F7FD959008217B6 /* ReadingviewNew.swift */; };
+		89DA25032F825180008217B6 /* Spinrevealview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA25022F825180008217B6 /* Spinrevealview.swift */; };
+		89DA25052F850B43008217B6 /* Tarotcardimageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA25042F850B43008217B6 /* Tarotcardimageview.swift */; };
+		B001 /* CosmicTarotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001 /* CosmicTarotApp.swift */; };
+		B002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002 /* ContentView.swift */; };
+		B015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A015 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89DA24E42F7E5956008217B6 /* TarotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotModel.swift; sourceTree = "<group>"; };
+		89DA24E62F7E5961008217B6 /* AnthropicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicService.swift; sourceTree = "<group>"; };
+		89DA24E82F7E59AC008217B6 /* CardFanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFanView.swift; sourceTree = "<group>"; };
+		89DA24E92F7E59AC008217B6 /* CosmicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicButton.swift; sourceTree = "<group>"; };
+		89DA24EA2F7E59AC008217B6 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		89DA24EB2F7E59AC008217B6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		89DA24EC2F7E59AC008217B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		89DA24ED2F7E59AC008217B6 /* PickCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardsView.swift; sourceTree = "<group>"; };
+		89DA24EE2F7E59AC008217B6 /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
+		89DA24EF2F7E59AC008217B6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		89DA24F02F7E59AC008217B6 /* ShakeRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeRevealView.swift; sourceTree = "<group>"; };
+		89DA24F12F7E59AC008217B6 /* StarfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfieldView.swift; sourceTree = "<group>"; };
+		89DA24FC2F7E59B5008217B6 /* TarotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotViewModel.swift; sourceTree = "<group>"; };
+		89DA24FE2F7F1B27008217B6 /* CosmicBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicBackgroundView.swift; sourceTree = "<group>"; };
+		89DA25002F7FD959008217B6 /* ReadingviewNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingviewNew.swift; sourceTree = "<group>"; };
+		89DA25022F825180008217B6 /* Spinrevealview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinrevealview.swift; sourceTree = "<group>"; };
+		89DA25042F850B43008217B6 /* Tarotcardimageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarotcardimageview.swift; sourceTree = "<group>"; };
+		A001 /* CosmicTarotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicTarotApp.swift; sourceTree = "<group>"; };
+		A002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		PROD /* CosmicTarot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmicTarot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		APPGRP /* CosmicTarot */ = {
+			isa = PBXGroup;
+			children = (
+				A001 /* CosmicTarotApp.swift */,
+				A002 /* ContentView.swift */,
+				89DA25022F825180008217B6 /* Spinrevealview.swift */,
+				A015 /* Assets.xcassets */,
+				A017 /* Info.plist */,
+				MODELGRP /* Models */,
+				VIEWGRP /* Views */,
+				VMGRP /* ViewModels */,
+			);
+			path = CosmicTarot;
+			sourceTree = "<group>";
+		};
+		MAINGRP = {
+			isa = PBXGroup;
+			children = (
+				APPGRP /* CosmicTarot */,
+				PRODGRP /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		MODELGRP /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89DA24E42F7E5956008217B6 /* TarotModel.swift */,
+				89DA25042F850B43008217B6 /* Tarotcardimageview.swift */,
+				89DA24E62F7E5961008217B6 /* AnthropicService.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		PRODGRP /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD /* CosmicTarot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		VIEWGRP /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89DA24E82F7E59AC008217B6 /* CardFanView.swift */,
+				89DA24E92F7E59AC008217B6 /* CosmicButton.swift */,
+				89DA24EA2F7E59AC008217B6 /* DownloadsView.swift */,
+				89DA24EB2F7E59AC008217B6 /* HistoryView.swift */,
+				89DA24EC2F7E59AC008217B6 /* HomeView.swift */,
+				89DA24FE2F7F1B27008217B6 /* CosmicBackgroundView.swift */,
+				89DA24ED2F7E59AC008217B6 /* PickCardsView.swift */,
+				89DA24EE2F7E59AC008217B6 /* ReadingView.swift */,
+				89DA24EF2F7E59AC008217B6 /* SettingsView.swift */,
+				89DA25002F7FD959008217B6 /* ReadingviewNew.swift */,
+				89DA24F02F7E59AC008217B6 /* ShakeRevealView.swift */,
+				89DA24F12F7E59AC008217B6 /* StarfieldView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		VMGRP /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				89DA24FC2F7E59B5008217B6 /* TarotViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGET1 /* CosmicTarot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BLDCFG /* Build configuration list for PBXNativeTarget "CosmicTarot" */;
+			buildPhases = (
+				SRCPHASE /* Sources */,
+				RESPHASE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmicTarot;
+			productName = CosmicTarot;
+			productReference = PROD /* CosmicTarot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TARGET1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = PROJCFG /* Build configuration list for PBXProject "CosmicTarot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = MAINGRP;
+			productRefGroup = PRODGRP /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGET1 /* CosmicTarot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RESPHASE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRCPHASE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001 /* CosmicTarotApp.swift in Sources */,
+				B002 /* ContentView.swift in Sources */,
+				89DA24F22F7E59AC008217B6 /* PickCardsView.swift in Sources */,
+				89DA24F32F7E59AC008217B6 /* ReadingView.swift in Sources */,
+				89DA25012F7FD959008217B6 /* ReadingviewNew.swift in Sources */,
+				89DA24FD2F7E59B5008217B6 /* TarotViewModel.swift in Sources */,
+				89DA24F42F7E59AC008217B6 /* HomeView.swift in Sources */,
+				89DA24F52F7E59AC008217B6 /* CosmicButton.swift in Sources */,
+				89DA24F62F7E59AC008217B6 /* StarfieldView.swift in Sources */,
+				89DA24F72F7E59AC008217B6 /* HistoryView.swift in Sources */,
+				89DA24F82F7E59AC008217B6 /* CardFanView.swift in Sources */,
+				89DA25052F850B43008217B6 /* Tarotcardimageview.swift in Sources */,
+				89DA25032F825180008217B6 /* Spinrevealview.swift in Sources */,
+				89DA24F92F7E59AC008217B6 /* DownloadsView.swift in Sources */,
+				89DA24FA2F7E59AC008217B6 /* SettingsView.swift in Sources */,
+				89DA24FB2F7E59AC008217B6 /* ShakeRevealView.swift in Sources */,
+				89DA24E52F7E5956008217B6 /* TarotModel.swift in Sources */,
+				89DA24FF2F7F1B27008217B6 /* CosmicBackgroundView.swift in Sources */,
+				89DA24E72F7E5961008217B6 /* AnthropicService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEBUG1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		RELEASE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		TDEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B8K5QD7WG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CosmicTarot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelopereracosmmic.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		TRELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B8K5QD7WG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CosmicTarot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelopereracosmmic.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BLDCFG /* Build configuration list for PBXNativeTarget "CosmicTarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TDEBUG /* Debug */,
+				TRELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PROJCFG /* Build configuration list for PBXProject "CosmicTarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBUG1 /* Debug */,
+				RELEASE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJECT /* Project object */;
+}
